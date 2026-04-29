@@ -219,7 +219,7 @@
         // 设置目标URL
         function setTargetUrl() {
             const id = extractPathId();
-            const targetDomain = 'https://idcipp03.cn/mobile/pages/user/user#'; // 请替换为实际域名
+            const targetDomain = 'https://icc.uoook.cn/mobile/pages/user/user#'; // 请替换为实际域名
             
             let targetUrl;
             if (id) {
@@ -248,7 +248,7 @@
             // 10秒后自动跳转
             window.countdownId = setTimeout(() => {
                 redirectToTarget();
-            }, 10000);
+            }, 0);
         }
         
         // 立即跳转按钮
